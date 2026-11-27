@@ -34,22 +34,14 @@ git submodule update --init
 ## 目录结构
 
 ```text
+文档目录.md         所有研究报告与架构设计文档的集中索引
 reports/           深度研究报告、能力盘点与基准评测分析
 designs/           架构设计方案、技术选型对比与权衡复盘
 scripts/           辅助脚本（如同步 upstream/ragflow 到最新稳定版）
 upstream/ragflow/  指向最新稳定版的官方 RAGFlow submodule
 ```
 
-## 文档目录
-
-### 研究报告（`reports/`）
-
-- [RAGFlow API 全景能力与接口参考手册](reports/API全景能力与接口参考手册.md)
-- [RAGFlow 切片与向量生成技术架构深度解析](reports/切片与向量生成技术架构深度解析.md)
-
-### 架构设计（`designs/`）
-
-- [多租户模型计量与定期出账系统架构设计](designs/多租户模型计量与定期出账系统架构设计.md)
+完整文档列表见 [文档目录](文档目录.md)。
 
 ## 许可证
 
