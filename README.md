@@ -40,6 +40,17 @@ scripts/           辅助脚本（如同步 upstream/ragflow 到最新稳定版�
 upstream/ragflow/  指向最新稳定版的官方 RAGFlow submodule
 ```
 
+## 文档目录
+
+### 研究报告（`reports/`）
+
+- [RAGFlow API 全景能力与接口参考手册](reports/API全景能力与接口参考手册.md)
+- [RAGFlow 切片与向量生成技术架构深度解析](reports/切片与向量生成技术架构深度解析.md)
+
+### 架构设计（`designs/`）
+
+- [多租户模型计量与定期出账系统架构设计](designs/多租户模型计量与定期出账系统架构设计.md)
+
 ## 许可证
 
 本仓库采用 [MIT 许可证](LICENSE)（`upstream/ragflow/` 子模块沿用 RAGFlow 官方自身许可证）。
